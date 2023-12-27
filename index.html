@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login Page</title>
+  <title>Login and Signup Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Login Page</h1>
-    <form id="loginForm">
-      <label for="username">Username:</label>
-      <input type="text" id="username" required><br><br>
-      <label for="password">Password:</label>
-      <input type="password" id="password" required><br><br>
-      <input type="submit" value="Login">
-    </form>
+    <div class="form-container">
+      <h1>Login</h1>
+      <form id="loginForm">
+        <label for="loginUsername">Username:</label>
+        <input type="text" id="loginUsername" required><br><br>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" required><br><br>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+    <div class="form-container">
+      <h1>Sign Up</h1>
+      <form id="signupForm">
+        <label for="signupUsername">Username:</label>
+        <input type="text" id="signupUsername" required><br><br>
+        <label for="signupPassword">Password:</label>
+        <input type="password" id="signupPassword" required><br><br>
+        <input type="submit" value="Sign Up">
+      </form>
+    </div>
   </div>
 
   <script src="login.js"></script>
